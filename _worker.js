@@ -77,7 +77,7 @@ export default {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => {
       controller.abort();
-    }, 10000); // 严格设定 10 秒超时
+    }, 25000); // 严格设定 10 秒超时
 
     try {
       // 6. 发起代理请求 (开启底层 SSL 宽容机制)
